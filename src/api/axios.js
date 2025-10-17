@@ -4,7 +4,7 @@ import axios from "axios";
 let accessToken = null;
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://authen-backend-1jq7.onrender.com/api",
   withCredentials: true, // needed for httpOnly cookies
 });
 
